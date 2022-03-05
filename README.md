@@ -1,2 +1,2 @@
-# graffshumsky.github.io
+# Игорь Шумский
 мой первый сайт
