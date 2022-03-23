@@ -11,6 +11,7 @@
     <title>Игорь Шумский - Beб-разработчик</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     
 </head>
 
@@ -19,104 +20,41 @@
     <nav>
         <div class="logo">Игорь Шумский</div>
         <div class="menu"><ul>
-            <li>Обо мне</li>
-            <li>Услуги</li>
-            <li>Кейсы</li>
-            <li>Прайс</li>
-            <li>Отзывы</li>
-            <li>Контакты</li>
+            <li><a href="#">Обо мне</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Кейсы</a></li>
+            <li><a href="#">Прайс</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Контакты</a></li>
             
         </ul></div>
     </nav>
 </header>
 
-<div class="main"><div class="title__container">
+
+<main>
+<section class="main">
+ <div class="title__container">
   <h1>Привет <br> Я Игорь Шумский</h1>
     <h4>фулл стек веб-разработчик</h4>
-    <input type="submit" value="обо мне">
-    <input type="submit" value="мои работы"></div>
+    <input type="button" value="обо мне">
+    <input type="button" value="мои работы">
+    </div></section>
+    
     
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-   
+    
     <h2><u>обо мне</u></h2>
     <br>
     <br>
     <br>
     <br>
     <br>
- 
+    
+    <div class="box animate__animated animate__rotateIn">
+ <section2>
     <img src="img/boy2.png" alt="">
     <br>
     <br>
@@ -129,13 +67,13 @@
 <br>
 <br>
 
-<span><b><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam eius fuga, accusamus porro dolorum quibusdam <br> optio in ut saepe eos laboriosam impedit beatae exercitationem eum pariatur culpa officia! In, beatae.</em></b></span>
+<span><b><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam eius fuga, accusamus porro dolorum quibusdam <br> optio in ut saepe eos laboriosam impedit beatae exercitationem eum pariatur culpa officia! In, beatae.</em></b></span></section2></div>
     
     <br>
     <br>
     <br>
    
-    <input type="submit" value="скачать резюме">
+    <input type="button" value="скачать резюме">
     <br>
     <br>
     <br>
@@ -276,18 +214,17 @@
         <br>
         <br>
         <br>
-        <br>
-        <br>
-        <br>
-        <h1><b>Сроки <p>0</p></b></h1>
-        <h1><b>Стоимость <p>0</p></b></h1></div></div>
+        <h1><b>Сроки<p>0</p></b></h1>
+        <h1><b>Стоимость<p>0</p></b></h1></div></div>
         <br>
         <br>
         <br>
         <br>
         <br>
-        
-    <div class="main4"><div class="title__container4">
+       
+    <section3>
+    <div class="main4">
+    <div class="title__container4">
     <br>
     <br>
     <br>
@@ -356,6 +293,7 @@
     <br>
     <br>
     <br>
+    </section3>
     
     <div class="main5"><div class="title__container5">
     <h2><u>отзывы</u></h2>
@@ -376,9 +314,14 @@
      <br>
      <br>
      
-     <input type="radio" name="text_input">
-     <input type="radio" name="text_input">
-     <input type="radio" name="text_input"></div></div>
+     <form action="#">
+     <label for="rad1">кнопка 1</label>
+     <input id="rad1" type="radio" name="name">
+     <label for="rad2">кнопка 2</label>
+     <input id="rad2" type="radio" name="name">
+     <label for="rad3">кнопка 3</label>
+     <input id="rad3" type="radio" name="name"></form>
+     </div></div>
      <br>
      <br>
      <br>
@@ -386,63 +329,79 @@
      <br>
      
 <footer>
-  <div>
+ <br>
+ <br>
+ <br>
   <h2><u>мои контакты</u></h2>
   <br>
   <br>
   <br>
-  <br>
-  <br>
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae laudantium, quod quis mollitia odit sint.</p>
+<div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae laudantium, quod quis mollitia odit sint.</p></div>
    <br>
    <br>
    <br>
    <br>
    <br>
    
-   <div>
+   <div class="geo">
    <img src="img/geo.png" alt="">
    <br><br>
    <p>Санкт-Петербург <br> Невский проспект 11</p></div>
    
-   <div>
+   <div class="envelope">
    <img src="img/envelope.png" alt="">
    <br><br>
    <p>info@companyname.com</p></div>
    
-   <div>
+   <div class="phone">
    <img src="img/phone.png" alt="">
    <br>
    <br>
-   <p>+7(999)999-99-99</p></div>
+   <p>+7(981)848**0-09</p></div>
     <br>
     <br>
     <br>
     <br>
     <br>
    
-    <h3>оставьте мне сообщение</h3>
-   
-    <form action="">
+    <section><div class="ckass1"><h3>оставьте мне сообщение</h3></div>
+    <br>
+    <br>
+    <div><form action="#">
    <input type="text" placeholder="имя">
-   <input type="text" placeholder="e-mail"> <br><br>
-   <textarea type="text" placeholder="Ваше сообщение" cols="46" rows="7"></textarea> <br>
+   <input type="text" placeholder="e-mail">
+   <br>
+   <br>
+   <textarea type="text" placeholder="Ваше сообщение" cols="46" rows="7"></textarea>
+   <br>
    
    <input type="reset" value="отправить">
-   </form>
+   </form></div></section>
    <br>
    <br>
    <br>
    <br>
    <br>
-   </div>
    <br>
    <br>
    <br>
-    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <p><small>Copyright© 2022 Igor_Shumsky. Disign by Web.</small></p>
+    <br>
+    <br>
     
 </footer>
+</main>
 
 </body>
 </html>
