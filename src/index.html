@@ -20,46 +20,43 @@
 <body>
 <header>
     <nav>
-       <div class="container">
-          <div class="row">
-             <div class="col-xxl-2 col-lg-3 col-7"><div class="logo">Игорь Шумский</div></div>
-             <div class=" px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block"><div class="menu"><ul>
-            <li><a href="#">Обо мне</a></li>
-            <li><a href="#">Услуги</a></li>
-            <li><a href="#">Кейсы</a></li>
-            <li><a href="#">Прайс</a></li>
-            <li><a href="#">Отзывы</a></li>
-            <li><a href="#">Контакты</a></li>
+    <div class="container">
+    <div class="row">
+    <div class="col-xxl-2 col-lg-3 col-7"><div class="logo">Игорь Шумский</div></div>
+<div class=" px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block"><div class="menu">
+             <ul>
+            <li><a href="#me">Обо мне</a></li>
+            <li><a href="#service">Услуги</a></li>
+            <li><a href="#case">Кейсы</a></li>
+            <li><a href="#price">Прайс</a></li>
+            <li><a href="#otzivi">Отзывы</a></li>
+            <li><a href="#contacts">Контакты</a></li>
         </ul>
     </div></div>
-             <div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
+    <div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
              <div class="dropdown">
-  <a class="btn btn-outline-secondary dropdown-toggle white-btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-    навигация
+  <a class="btn btn-outline-secondary dropdown-toggle white-btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">навигация
   </a>
 
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      <li><a class="dropdown-item" href="#">Обо мне</a></li>
-          <li><a class="dropdown-item" href="#">Услуги</a></li>
-          <li><a class="dropdown-item" href="#">Кейсы</a></li>
-          <li><a class="dropdown-item" href="#">Прайс</a></li>
-          <li><a class="dropdown-item" href="#">Отзывы</a></li>
-          <li><a class="dropdown-item" href="#">Контакты</a></li>
+      <li><a class="dropdown-item" href="#me">Обо мне</a></li>
+          <li><a class="dropdown-item" href="#service">Услуги</a></li>
+          <li><a class="dropdown-item" href="#case">Кейсы</a></li>
+          <li><a class="dropdown-item" href="#price">Прайс</a></li>
+          <li><a class="dropdown-item" href="#otzivi">Отзывы</a></li>
+          <li><a class="dropdown-item" href="#contacts">Контакты</a></li>
   </ul>
 </div>
-       </div>       
+       </div></div>       
           </div>
            
-       </div>
-        
-        
     </nav>
 </header>
 
 
 <main>
 <section class="main">
-<div class="container h-100"><div class="row align-items-center h-100"><div class="col-lg-6 mt-5 pt-5">
+<div class="container h-100%"><div class="row align-items-center h-100%"><div class="col-lg-6 mt-5 pt-5">
     <div class="title__container mt-5">
   <h1>Привет <br> Я Игорь Шумский</h1>
     <h4><i class="fa fa-css3 custom-css3" aria-hidden="true"></i>фулл стек веб-разработчик</h4>
@@ -75,6 +72,7 @@
     <br>
     
     <div class="container">
+    <section class="section" id="me">
     <h2><u>обо мне</u></h2>
     <br>
     <br>
@@ -83,7 +81,7 @@
     <br>
     
     <div class="box animate__animated animate__rotateIn">
- <section2>
+ <section2 class="element-animation">
     <img src="img/boy2.png" alt="">
     <br>
     <br>
@@ -103,6 +101,7 @@
     <br>
    
     <input type="button" value="скачать резюме">
+    </section>
     <br>
     <br>
     </div>
@@ -113,6 +112,7 @@
     <div class="container-fluid">
     <div class="container"><div class="row">
 <div class="main2">
+<section class="section" id="service">
 
 <h2><u>что я умею</u></h2>
 
@@ -164,7 +164,7 @@
     <br>
     <br>
     <p><b>lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Nesciunt aliquam <br> repellat fugiat eos.</b></p></div>
-    </div></div>
+    </div></section></div>
     
 <br>
 <br>
@@ -175,6 +175,7 @@
 <br>
 
 <div class="container"><div class="row">
+<section class="section" id="case">
 <h2><u>кейсы</u></h2>
    <br>
    <br>
@@ -183,6 +184,7 @@
     <br>
     
     <img src="img/open_cloud.jpg" alt="изображение google">
+    </section>
     <br>
     <br>
     <br>
@@ -198,6 +200,7 @@
     <div class="col-10">
     <div class="main3">
     <div class="title__container3">
+    <section class="section" id="price">
     <h2>Расчёт стоимости</h2>
     
     <h3><b>Тип сайта</b></h3>
@@ -230,7 +233,9 @@
         <br>
         <br>
         <h2><b>Сроки<p>0</p></b></h2>
-        <h2><b>Стоимость<p>0</p></b></h2></div></div></div></div></div>
+        <h2><b>Стоимость<p>0</p></b></h2>
+        </section>
+        </div></div></div></div></div>
         <br>
         <br>
        
@@ -270,7 +275,7 @@
     <br>
     <br>
     <br>
-    <h3><b>4,600</b></h3>
+    <div class="cifra"><h3><b>4,600</b></h3></div>
     <br>
     <br>
     <br>
@@ -311,6 +316,7 @@
     
     <div class="container">
     <div class="main5"><div class="title__container5">
+    <section class="section" id="otzivi">
     <h2><u>отзывы</u></h2>
     <br>
     <br>
@@ -324,6 +330,7 @@
     <br>
     <br>
     <p><b><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga est inventore <br> tenetur, enim quod rerum assumenda voluptatibus eum, provident earum!</em></b></p><br><br>
+    </section>
      
      <p><em>Михаил, Ген директор ПАО "Газпром"</em></p>
      <br>
@@ -346,7 +353,7 @@
 <footer>
 <div class="container-fluid_2">
 <div class="container">
-<section>
+<section class="section" id="contacts">
  <br>
  <br>
  <br>
@@ -371,13 +378,13 @@
    <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
    <img src="img/envelope.png" alt="">
    <br><br>
-   <p>info@companyname.com</p></div>
+   <p>garik793108@yandex.ru</p></div>
    
    <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
    <img src="img/phone.png" alt="">
    <br>
    <br>
-   <p>+7(981)848**0-09</p></div></div>
+   <p>+7(981)848-20-09</p></div></div>
     <br>
     
     <div class="class_1"><h3>оставьте мне сообщение</h3>
